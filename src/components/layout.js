@@ -1,7 +1,9 @@
 import React from 'react'
 import './base.css'
 import Container from './container'
-import Navigation from './navigation'
+// import Navigation from './navigation'
+//new nav
+import Nav2 from '../components/navigation2'
 
 class Template extends React.Component {
   render() {
@@ -9,7 +11,8 @@ class Template extends React.Component {
 
     return (
       <Container>
-        <Navigation />
+         <Nav2 />
+     
         {children}
       </Container>
     )
