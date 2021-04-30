@@ -11,9 +11,9 @@ class Template extends React.Component {
 
     return (
       <Container>
-         <Nav2 />
-     
+      <Nav2 />
         {children}
+        
       </Container>
     )
   }

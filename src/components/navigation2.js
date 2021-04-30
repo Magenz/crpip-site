@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 export default function navigation2() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar  fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
              <Link to="/"><Navbar.Brand> NIA - CRPIP </Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -34,6 +34,9 @@ export default function navigation2() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+            <br /> 
+            <br /> 
+            <br />
         </div>
     )
 }
