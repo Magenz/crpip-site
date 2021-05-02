@@ -10,27 +10,25 @@ export default function navigation2() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Link href="#features">NIA CENTRAL</Nav.Link>
-                    <Nav.Link href="#pricing">Memorandum Circular</Nav.Link>
+                    <Nav.Link href="https://www.nia.gov.ph/">NIA CENTRAL</Nav.Link>
+                    <Nav.Link href="http://omcrs.nia.gov.ph/">Memorandum Circular</Nav.Link>
                     <NavDropdown title="Procurement" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">BAC Live Video Streaming</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.1">Invitation to Bids</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.1">Pre-bid Conference</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Minutes of Pre-bidding Conference</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Contract Agreement</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Supplemental Notice</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Notice to Proceed</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Notice of Award</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Notice of Auction Sale</NavDropdown.Item>
+                        <NavDropdown.Item href="#">BAC Live Video Streaming</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Invitation to Bids</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Pre-bid Conference</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Minutes of Pre-bidding Conference</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Contract Agreement</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Supplemental Notice</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Notice to Proceed</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Notice of Award</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Notice of Auction Sale</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
                     </NavDropdown>
                     </Nav>
                     <Nav>
-                    <Nav.Link href="#deets"> About us</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
-                        Contact Us
-                    </Nav.Link>
+                    <Link to="/contact"><Nav.Link href="contact"> Contact us</Nav.Link></Link> 
+                    <Link to="/about"><Nav.Link href="about"> About us</Nav.Link></Link> 
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
