@@ -22,9 +22,10 @@ export default function navigation2() {
                         <NavDropdown.Item href="#">Notice to Proceed</NavDropdown.Item>
                         <NavDropdown.Item href="#">Notice of Award</NavDropdown.Item>
                         <NavDropdown.Item href="#">Notice of Auction Sale</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
-                    </NavDropdown>
+                      {/* <NavDropdown.Divider />
+                        <NavDropdown.Item href="#">Separated link</NavDropdown.Item>*/}
+                       
+                    </NavDropdown>  
                     </Nav>
                     <Nav>
                     <Link to="/contact"><Nav.Link href="contact"> Contact us</Nav.Link></Link> 
